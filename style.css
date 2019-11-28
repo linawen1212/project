@@ -1,0 +1,124 @@
+/*Global stylesheet
+-----------------------------------------------*/
+html, body{
+  height: 100%;
+  width: 100%;
+}
+
+
+body{
+
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+h1, h2{
+  font-family: 'Jomolhari', serif;
+  letter-spacing: 5px;
+}
+
+h1{
+  font-size: 80px;
+}
+
+h2{
+  font-size: 40px;
+  margin-top: 0;
+}
+
+h3{
+  margin: 0;
+}
+
+.uppercase{
+  text-transform: uppercase;
+}
+
+
+
+
+/*Header and Footer
+-----------------------------------------------*/
+
+.padding{
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+}
+
+.welcome{
+  width: 75%;
+  margin: 0 auto;
+}
+
+ .welcome hr{
+  border-top: 2px solid white;
+  width: 95%;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+hr{
+ border-top: 2px solid white;
+ width: 95%;
+ margin-top: 5px;
+ margin-bottom: 10px;
+ border-top: 1px solid #89aebf;
+}
+/*.........................................................*/
+
+
+/*Footer*/
+header, footer{
+  background: #bf89ae;
+  text-align: center;
+  color:#fff;
+}
+
+/*Work Experience
+-----------------------------------------------*/
+
+
+h3 ~ p{
+  margin: 0;
+}
+
+.description{
+  margin-top: 10px;
+}
+
+
+/*Education
+-----------------------------------------------*/
+.education{
+
+  background: #89aebf;
+  color: white
+}
+
+p + h3{
+  margin-top: 30px;
+}
+
+/*Media Queries
+-----------------------------------------------*/
+@media (min-width: 900px){
+  .col-narrow{
+    width: 30%;
+    float: left;
+  }
+
+  .col-wide{
+    width: 70%;
+    float: left;
+    padding-left: 20px;
+  }
+}
+
+@media (max-width: 899px){
+  header{
+    text-align: center;
+  }
+
+}
